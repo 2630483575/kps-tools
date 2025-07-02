@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <g id="项目管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-359.000000, -524.000000)" id="编组-4">
+            <g transform="translate(30.000000, 222.000000)">
+                <g id="平台项目" transform="translate(30.000000, 98.000000)">
+                    <g id="编组-6" transform="translate(299.000000, 204.000000)">
+                        <rect id="矩形" fill="#F0F4FF" x="0" y="0" width="25" height="20" rx="4"></rect>
+                        <path d="M8,9 C8.55228475,9 9,9.44771525 9,10 C9,10.5522847 8.55228475,11 8,11 C7.44771525,11 7,10.5522847 7,10 C7,9.44771525 7.44771525,9 8,9 Z M13,9 C13.5522847,9 14,9.44771525 14,10 C14,10.5522847 13.5522847,11 13,11 C12.4477153,11 12,10.5522847 12,10 C12,9.44771525 12.4477153,9 13,9 Z M18,9 C18.5522847,9 19,9.44771525 19,10 C19,10.5522847 18.5522847,11 18,11 C17.4477153,11 17,10.5522847 17,10 C17,9.44771525 17.4477153,9 18,9 Z" id="形状结合" fill="#333333"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

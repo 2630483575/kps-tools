@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="20" height="20"
+     viewBox="0 0 20 20" class="text-gray-400 dark:text-blue-200">
+    <g>
+        <g style="opacity: 0;">
+            <path d="M20,0C20,0,0,0,0,0C0,0,0,20,0,20C0,20,20,20,20,20C20,20,20,0,20,0Z" fill="#000000"
+                  fill-opacity="1"></path>
+        </g>
+        <g style="opacity: 0.8;">
+            <path d="M10.000001318702697,1L18.559491318702698,7.21885L15.290091318702698,17.2812L4.709931318702697,17.2812L1.4404913187026978,7.21885L10.000001318702697,1ZM10.000001318702697,3.47214L16.208391318702695,7.98278L13.836991318702697,15.2812L6.163021318702698,15.2812L3.7916313187026978,7.98278L10.000001318702697,3.47214Z"
+                  fill-rule="evenodd" fill="currentColor" fill-opacity="1"></path>
+        </g>
+        <g>
+            <rect x="8.5" y="1" width="3" height="3" rx="0" fill="currentColor" fill-opacity="1"></rect>
+        </g>
+        <g>
+            <rect x="3.5" y="15.093658447265625" width="3" height="3" rx="0" fill="currentColor"
+                  fill-opacity="1"></rect>
+        </g>
+        <g>
+            <rect x="13.4375" y="15.093658447265625" width="3" height="3" rx="0" fill="currentColor"
+                  fill-opacity="1"></rect>
+        </g>
+        <g>
+            <rect x="15.9375" y="6.14056396484375" width="3" height="3" rx="0" fill="currentColor"
+                  fill-opacity="1"></rect>
+        </g>
+        <g>
+            <rect x="1" y="6.14056396484375" width="3" height="3" rx="0" fill="currentColor" fill-opacity="1"></rect>
+        </g>
+    </g>
+</svg>

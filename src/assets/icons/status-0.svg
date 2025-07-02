@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="26px" viewBox="0 0 44 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径</title>
+    <g id="用户管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.08" stroke-opacity="0.5">
+        <g id="团队管理" transform="translate(-588.000000, -400.000000)" fill="#FF0000" stroke="#FF0000" stroke-width="0.5">
+            <g id="编组-4" transform="translate(30.000000, 222.000000)">
+                <g id="编组-7备份-10" transform="translate(30.000000, 107.000000)">
+                    <g id="编组-4" transform="translate(0.000000, 56.000000)">
+                        <g id="禁用" transform="translate(528.000000, 15.000000)">
+                            <rect id="路径" x="0.25" y="0.25" width="43.5" height="25.5" rx="4"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

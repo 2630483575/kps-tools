@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>成功</title>
+    <defs>
+        <linearGradient x1="11.379972%" y1="25.7794994%" x2="87.8577281%" y2="82.2935612%" id="linearGradient-1">
+            <stop stop-color="#0DD700" offset="0.0628277972%"></stop>
+            <stop stop-color="#5BFA2D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="任务管理" transform="translate(-494.000000, -458.000000)">
+            <g id="编组-7备份-10" transform="translate(60.000000, 216.000000)">
+                <g id="编组-4备份-17" transform="translate(0.000000, 224.000000)">
+                    <g id="成功" transform="translate(434.000000, 18.000000)">
+                        <circle id="椭圆形" fill="url(#linearGradient-1)" cx="10" cy="10" r="10"></circle>
+                        <path d="M12.8913617,6.95955989 C13.281886,6.56903559 13.915051,6.56903559 14.3055753,6.95955989 C14.6960995,7.35008418 14.6960995,7.98324916 14.3055753,8.37377345 L14.3055753,8.37377345 L9.59153005,13.0878187 C9.20100575,13.4783429 8.56784077,13.4783429 8.17731648,13.0878187 C8.16245443,13.0729566 8.14815797,13.0577431 8.13442711,13.042205 L6.29289322,11.1973283 C5.90236893,10.806804 5.90236893,10.173639 6.29289322,9.78311472 C6.68341751,9.39259043 7.31658249,9.39259043 7.70710678,9.78311472 L8.887,10.9626667 Z" id="形状结合" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon备份</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20" rx="6"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="项目管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,0" stroke-opacity="0.5">
+        <g id="流程引擎2" transform="translate(-290.000000, -211.000000)" fill="#E5F1FF" stroke="#3BABFF">
+            <g id="左侧导航备份" transform="translate(270.000000, 86.000000)">
+                <g id="个人空间备份" transform="translate(0.000000, 106.000000)">
+                    <g id="Icon备份" transform="translate(20.000000, 19.000000)">
+                        <use id="Icon-(Background)" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

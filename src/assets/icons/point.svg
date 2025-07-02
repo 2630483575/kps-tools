@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="20" height="20"
+     viewBox="0 0 20 20"
+     class="rounded-sm text-gray-400 transition-colors hover:bg-zinc-200 dark:bg-gray-900 dark:text-blue-200 dark:hover:bg-slate-800">
+    <g>
+        <g style="opacity: 0;">
+            <path d="M20,0C20,0,0,0,0,0C0,0,0,20,0,20C0,20,20,20,20,20C20,20,20,0,20,0Z" fill="#BB9F9F"
+                  fill-opacity="1"></path>
+        </g>
+        <g style="opacity: 0.8;">
+            <path d="M18,11L2,11L2,9L18,9L18,11Z" fill-rule="evenodd" fill="currentColor" fill-opacity="1"></path>
+        </g>
+        <g transform="matrix(0,1,-1,0,13.0048828125,-9)" style="opacity: 0.8;">
+            <path d="M27.00244140625,4.00244140625L11.00244140625,4.00244140625L11.00244140625,2.00244140625L27.00244140625,2.00244140625L27.00244140625,4.00244140625Z"
+                  fill-rule="evenodd" fill="currentColor" fill-opacity="1"></path>
+        </g>
+        <g transform="matrix(0.7071067690849304,0.7071067690849304,-0.7071067690849304,0.7071067690849304,7.878676320997386,-5.020816471067576)">
+            <path d="M10,6.999995231628418L14.242609999999999,6.999995231628418L14.242609999999999,11.242635231628418L10,11.242635231628418L10,6.999995231628418Z"
+                  fill="currentColor" fill-opacity="1"></path>
+        </g>
+        <g transform="matrix(0.7071067690849304,0.7071067690849304,-0.7071067690849304,0.7071067690849304,7.878676320997386,-5.020816471067576)">
+            <path d="M10,6.999995231628418L14.242609999999999,6.999995231628418L14.242609999999999,11.242635231628418L10,11.242635231628418L10,6.999995231628418ZM11,7.999995231628418L11,10.242635231628418L13.242609999999999,10.242635231628418L13.242609999999999,7.999995231628418L11,7.999995231628418Z"
+                  fill-rule="evenodd" fill="currentColor" fill-opacity="1"></path>
+        </g>
+    </g>
+</svg>
