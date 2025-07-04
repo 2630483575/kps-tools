@@ -15,15 +15,15 @@ export default defineConfig({
     host: "0.0.0.0",
     proxy: {
       "/config-api": {
-        target: "http://192.168.31.19:8090",
+        target: "http://localhost:8090",
         changeOrigin: true,
       },
       "/login-api": {
-        target: "http://192.168.31.19:8090",
+        target: "http://localhost:8090",
         changeOrigin: true,
       },
       "/file-api": {
-        target: "http://192.168.31.19:8090",
+        target: "http://localhost:8090",
         changeOrigin: true,
       },
     },
