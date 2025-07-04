@@ -1,11 +1,12 @@
 import requestApi from "@/utils/request";
-import { Table, TableProps, Tag } from "antd";
+import { Progress, Table, TableProps, Tag } from "antd";
 import { useEffect, useState } from "react";
 
 interface IDownloadColumn {
   jobId: string;
   created: string;
   status: string;
+  progress: number;
 }
 const TaskDownload = ({ cancel, success }: any) => {
   const [downloadTaskList, setDownloadTaskList] = useState<IDownloadColumn[]>(
@@ -16,6 +17,14 @@ const TaskDownload = ({ cancel, success }: any) => {
       title: "任务Id",
       dataIndex: "jobId",
       key: "jobId",
+    },
+    {
+      title: "下载进度",
+      dataIndex: "progress",
+      key: "progress",
+      render: (text, record) => {
+        return <Progress percent={text} />;
+      },
     },
     {
       title: "下载时间",
