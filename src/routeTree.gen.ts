@@ -21,6 +21,7 @@ import { Route as OperatorUploadIndexImport } from './routes/operatorUpload/inde
 import { Route as OperatorMarketIndexImport } from './routes/operatorMarket/index'
 import { Route as LoginIndexImport } from './routes/login/index'
 import { Route as DataDownloadIndexImport } from './routes/dataDownload/index'
+import { Route as ConfigManageIndexImport } from './routes/configManage/index'
 import { Route as DataUploadLayoutImport } from './routes/dataUpload/_layout'
 import { Route as DataUploadLayoutIndexImport } from './routes/dataUpload/_layout/index'
 import { Route as DataUploadLayoutMinioImport } from './routes/dataUpload/_layout/minio'
@@ -98,6 +99,12 @@ const DataDownloadIndexRoute = DataDownloadIndexImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
+const ConfigManageIndexRoute = ConfigManageIndexImport.update({
+  id: '/configManage/',
+  path: '/configManage/',
+  getParentRoute: () => rootRoute,
+} as any)
+
 const DataUploadLayoutRoute = DataUploadLayoutImport.update({
   id: '/_layout',
   getParentRoute: () => DataUploadRoute,
@@ -170,6 +177,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/dataUpload'
       preLoaderRoute: typeof DataUploadLayoutImport
       parentRoute: typeof DataUploadRoute
+    }
+    '/configManage/': {
+      id: '/configManage/'
+      path: '/configManage'
+      fullPath: '/configManage'
+      preLoaderRoute: typeof ConfigManageIndexImport
+      parentRoute: typeof rootRoute
     }
     '/dataDownload/': {
       id: '/dataDownload/'
@@ -349,6 +363,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/dataUpload': typeof DataUploadLayoutRouteWithChildren
+  '/configManage': typeof ConfigManageIndexRoute
   '/dataDownload': typeof DataDownloadIndexRoute
   '/login': typeof LoginIndexRoute
   '/operatorMarket': typeof OperatorMarketIndexRoute
@@ -366,6 +381,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/dataUpload': typeof DataUploadLayoutIndexRoute
+  '/configManage': typeof ConfigManageIndexRoute
   '/dataDownload': typeof DataDownloadIndexRoute
   '/login': typeof LoginIndexRoute
   '/operatorMarket': typeof OperatorMarketIndexRoute
@@ -384,6 +400,7 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/dataUpload': typeof DataUploadRouteWithChildren
   '/dataUpload/_layout': typeof DataUploadLayoutRouteWithChildren
+  '/configManage/': typeof ConfigManageIndexRoute
   '/dataDownload/': typeof DataDownloadIndexRoute
   '/login/': typeof LoginIndexRoute
   '/operatorMarket/': typeof OperatorMarketIndexRoute
@@ -405,6 +422,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/dataUpload'
+    | '/configManage'
     | '/dataDownload'
     | '/login'
     | '/operatorMarket'
@@ -421,6 +439,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/dataUpload'
+    | '/configManage'
     | '/dataDownload'
     | '/login'
     | '/operatorMarket'
@@ -437,6 +456,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/dataUpload'
     | '/dataUpload/_layout'
+    | '/configManage/'
     | '/dataDownload/'
     | '/login/'
     | '/operatorMarket/'
@@ -457,6 +477,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   DataUploadRoute: typeof DataUploadRouteWithChildren
+  ConfigManageIndexRoute: typeof ConfigManageIndexRoute
   DataDownloadIndexRoute: typeof DataDownloadIndexRoute
   LoginIndexRoute: typeof LoginIndexRoute
   OperatorMarketIndexRoute: typeof OperatorMarketIndexRoute
@@ -470,6 +491,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   DataUploadRoute: DataUploadRouteWithChildren,
+  ConfigManageIndexRoute: ConfigManageIndexRoute,
   DataDownloadIndexRoute: DataDownloadIndexRoute,
   LoginIndexRoute: LoginIndexRoute,
   OperatorMarketIndexRoute: OperatorMarketIndexRoute,
@@ -492,6 +514,7 @@ export const routeTree = rootRoute
         "/",
         "/about",
         "/dataUpload",
+        "/configManage/",
         "/dataDownload/",
         "/login/",
         "/operatorMarket/",
@@ -520,6 +543,9 @@ export const routeTree = rootRoute
         "/dataUpload/_layout/minio",
         "/dataUpload/_layout/"
       ]
+    },
+    "/configManage/": {
+      "filePath": "configManage/index.tsx"
     },
     "/dataDownload/": {
       "filePath": "dataDownload/index.tsx"

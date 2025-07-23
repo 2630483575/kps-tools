@@ -9,6 +9,7 @@ import {
   AimOutlined,
   UploadOutlined,
   DownloadOutlined,
+  ProfileOutlined,
 } from "@ant-design/icons";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "@tanstack/react-router";
@@ -46,6 +47,11 @@ const items: MenuItem[] = [
     key: "/userManage",
     icon: <TeamOutlined />,
     label: "人员管理",
+  },
+  {
+    key: "/configManage",
+    icon: <ProfileOutlined />,
+    label: "配置中心",
   },
   // {
   //   key: "userManage",

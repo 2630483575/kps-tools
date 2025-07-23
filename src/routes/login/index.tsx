@@ -15,19 +15,22 @@ function RouteComponent() {
   const navigate = useNavigate();
 
   const onFinish = async (values: any) => {
-    const params = { username: values.username, password: values.password };
-    await requestApi({
-      url: "/login-api",
-      method: "POST",
-      data: params,
-    }).then((res) => {
-      if (res.code === 200) {
-        localStorage.setItem("userInfo", JSON.stringify(res.data));
-        localStorage.setItem("token", res.data.token);
-        navigate({
-          to: "/dataDownload",
-        });
-      }
+    // const params = { username: values.username, password: values.password };
+    // await requestApi({
+    //   url: "/login-api",
+    //   method: "POST",
+    //   data: params,
+    // }).then((res) => {
+    //   if (res.code === 200) {
+    //     localStorage.setItem("userInfo", JSON.stringify(res.data));
+    //     localStorage.setItem("token", res.data.token);
+    //     navigate({
+    //       to: "/dataDownload",
+    //     });
+    //   }
+    // });
+    navigate({
+      to: "/dataDownload",
     });
   };
 

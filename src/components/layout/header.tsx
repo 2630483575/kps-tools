@@ -19,6 +19,7 @@ const titleList = [
   { label: "平台概览", key: "/preview" },
   { label: "数据上传", key: "/dataUpload" },
   { label: "数据下载", key: "/dataDownload" },
+  { label: "配置中心", key: "/configManage" },
 ];
 const AppHeader = ({ fetchData, setSearchText }: props) => {
   const { activeMenu, setActiveMenu } = useAppContext();
